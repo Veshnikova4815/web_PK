@@ -1,0 +1,113 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	background: url(https://www.agentur-anmut.de/wp-content/uploads/2017/04/wordpress-blog-corporate-blog.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+.container1{
+	background: #c9c0bb;
+}
+.logo {
+	width: 850px;
+	margin-left: px;
+}
+.nav{
+	width: 100px;
+	margin-left: 400px;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+}
+.title {
+	padding-top: 115px;
+}
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.services {
+	margin-top: 80px;
+}
+.services__item	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services__item a{
+	text-decoration: none;
+	color: #000;
+}
+.services__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.services__item img {
+	width: 100px;
+	height: 100px;
+}
+.services__item:nth-child(1) {
+	margin-left: 1200px;
+}
+.services__item:nth-child(2) {
+	margin-left: 80px;
+}
+.services__item:nth-child(3) {
+	margin-left: 80px;
+}
+.services__item:nth-child(4) {
+	margin-left: 80px;
+}
+.services__item1 a{
+	text-decoration: none;
+	color: #000;
+}
+.services__item1	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services__item1:nth-child(1) {
+	margin-left: 1200px;
+}
+.services__item1:nth-child(2) {
+	margin-left: 80px;
+}
+.services__item1:nth-child(3) {
+	margin-left: 80px;
+}
+.services__item1:nth-child(4) {
+	margin-left: 80px;
+}
+.services__item1 img {
+	width: 100px;
+	height: 100px;
+}
+#services {
+	padding-bottom: 120px;
+}
